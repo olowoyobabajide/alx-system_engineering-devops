@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --pattern=[:alpha:][:upper:] /etc/ssh/ssh_config
+grep --pattern=[aA-zZ] /etc/ssh/ssh_config
