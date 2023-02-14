@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --pattern=[aA-zZ] /etc/ssh/ssh_config
+grep . --pattern=[aA-zZ] -type f /etc/ssh/ssh_config
