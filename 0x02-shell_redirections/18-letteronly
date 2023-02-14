@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i -p=[:alpha:] -type f /etc/ssh/sshd_config
+grep -i -e -p=[:alpha:] /etc/ssh/sshd_config
